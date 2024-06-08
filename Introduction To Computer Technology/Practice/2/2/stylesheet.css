@@ -1,0 +1,30 @@
+body{
+    background-color: blueviolet
+}
+
+#Part1{
+    text-align: center;
+    border: 5px solid black;
+}
+
+#Part2{
+    border: 5px solid black;
+}
+#input{
+    left: -100px;
+    position: relative;
+}
+
+#output{
+    left: 100px;
+}
+
+#To{
+    font-weight: bolder;
+}
+
+#calculate{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1 id="heading">WELCOME TO CALCULATOR</h1>
+
+    <div id="part1">
+        <h3 id="tag">SELECT OPERATION</h3>
+        <select name="operation" id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+
+        <input type="number" name="input1" id="input1">
+        <br>
+        <input type="number" name="input2" id="input2">
+
+        <button id="calculate" onclick="calculate()">=</button>
+
+        <input type="number" name="output" id="output" readonly>
+    </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#header{
+    font-weight: bold;
+    text-align: center;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#break{
+    color: brown;
+    stroke-linecap: square;
+}
+
+#image{
+    border-image: round;
+    image-resolution: 100px;
+    border-image-source: -moz-linear-gradient();
+    image-orientation: flip;
+    position: relative;
+    left: auto;
+}
+
+#table{
+    tab-size: 50cm;
+    align-self: center;
+    background-size: auto;
+    color: gold;
+    text-size-adjust: 50cm;
+    border: 50cqmax;
+    border-width: 50cqmax;
+    border-color: black;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="part1">
+        <h1 id="first"><strong>Currency Convertor</strong></h1>
+
+        <select name="Input_Currency" id="InputCurrency">
+            <option value="USD-Dollar">USD Dollar</option>
+            <option value="Pakistani Ruppee">Pakistani Ruppee</option>
+            <option value="Euro">Euro</option>
+        </select>
+
+        <label id="to" for="To">To</label>
+
+        <select name="Output_Currency" id="Output_Currency">
+            <option value="USD-Dollar">USD Dollar</option>
+            <option value="Pakistani Ruppee">Pakistani Ruppee</option>
+            <option value="Euro">Euro</option>
+        </select>
+
+        <br><br><br>
+
+        <input id="Input_Value" type="number">
+
+        <button id="cal" onclick="calculate()">Calculate</button>
+
+        <input id="Output_Value" type="number">
+    </div>
+
+    <div id="part2">
+        <div class="Prime and Even Numbers">
+        <div id="Prime_Numbers"><li>Prime Numbers upto this amount are: </li></div>
+        <br><br>
+        <div id="Even_Numbers"><li>Even Numbers upto this amount are: </li></div>
+        </div readonly>
+    </div>
+    
+    <script src="cc.js"></script>
+</body>
+</html>

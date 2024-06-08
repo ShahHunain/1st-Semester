@@ -1,0 +1,64 @@
+*{
+    background-color: cadetblue;
+}
+
+
+body{
+    align-content: auto;
+    text-align: justify; 
+}
+
+#first{
+    color: gold;
+    align-self: auto;
+    text-align: center;
+
+}
+
+#List{
+    text-align: center;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+    color: gold;
+}
+
+#details{
+    color: gold;
+    text-align: left;
+}
+
+#contact{
+    background-color: blanchedalmond;
+}
+
+#table{
+    tab-size: 50cm;
+    align-self: center;
+    background-size: auto;
+    background-color: black;
+    color: gold;
+    text-decoration: solid;
+    text-decoration: aliceblue;
+    text-size-adjust: 50cm;
+    border: 50cm;
+    border-width: 50cm;
+}
+
+#bt{
+    color: brown;
+    font-size: larger;
+    background-color: aliceblue;
+}
+
+#butterfly{
+    image-resolution: 100px;
+    border-image: fill;
+    vertical-align: text-top;
+    border-width: 10px;
+    align-content: center;
+    ruby-align: center;
+}

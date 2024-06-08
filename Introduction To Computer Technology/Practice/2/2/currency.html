@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <div id="Part1">
+        <h1 id="header">CURRENCY CONVERTER</h1>
+        <select name="input" id="input">
+            <option value="PKR">PKR</option>
+            <option value="USD">USD</option>
+            <option value="EURO">EURO</option>
+        </select>
+        
+        <label for="TO">TO</label>
+
+        <select name="output" id="output">
+            <option value="PKR">PKR</option>
+            <option value="USD">USD</option>
+            <option value="EURO">EURO</option>
+        </select>
+
+        <br><br>
+
+        <input type="number" name="input_currency" id="input_currency">
+
+        <button id="calculate" onclick="calculate()">Calculate</button>
+        <input type="number" name="output_currency" id="output_currency" readonly>
+        <br><br>
+    </div>
+        <br><br>
+    
+    <div id="Part2">
+        <br>
+        <div class="Prime and Even numbers">
+            <li>Prime numbers up to this amount are:</li><br><br>
+            <div id="Prime Numbers"></div>
+            <br>
+            <li>Even numbers up to this amount are:</li><br><br>
+            <div id="Even Numbers"></div>
+            <br>
+        </div>
+    </div>
+    
+    <script src="currency.js"></script>
+</body>
+</html>
